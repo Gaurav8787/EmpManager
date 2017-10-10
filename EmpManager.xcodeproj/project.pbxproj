@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F49EB2191F8CCC670064E124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2181F8CCC670064E124 /* AppDelegate.swift */; };
-		F49EB21B1F8CCC670064E124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB21A1F8CCC670064E124 /* ViewController.swift */; };
 		F49EB21E1F8CCC670064E124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49EB21C1F8CCC670064E124 /* Main.storyboard */; };
 		F49EB2211F8CCC670064E124 /* EmpManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F49EB21F1F8CCC670064E124 /* EmpManager.xcdatamodeld */; };
 		F49EB2231F8CCC670064E124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49EB2221F8CCC670064E124 /* Assets.xcassets */; };
 		F49EB2261F8CCC670064E124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49EB2241F8CCC670064E124 /* LaunchScreen.storyboard */; };
 		F49EB2311F8CCC670064E124 /* EmpManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2301F8CCC670064E124 /* EmpManagerTests.swift */; };
 		F49EB23C1F8CCC670064E124 /* EmpManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB23B1F8CCC670064E124 /* EmpManagerUITests.swift */; };
+		F49EB24A1F8CCD720064E124 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2491F8CCD720064E124 /* AddViewController.swift */; };
+		F49EB24C1F8CCD800064E124 /* ListManagersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB24B1F8CCD800064E124 /* ListManagersViewController.swift */; };
+		F49EB24E1F8CDCBF0064E124 /* ManagerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB24D1F8CDCBF0064E124 /* ManagerDetailsViewController.swift */; };
+		F49EB2501F8CDCCC0064E124 /* EmplyeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB24F1F8CDCCC0064E124 /* EmplyeeListViewController.swift */; };
+		F49EB2531F8CFB550064E124 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2521F8CFB550064E124 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		F49EB2151F8CCC670064E124 /* EmpManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49EB2181F8CCC670064E124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F49EB21A1F8CCC670064E124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F49EB21D1F8CCC670064E124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49EB2201F8CCC670064E124 /* EmpManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmpManager.xcdatamodel; sourceTree = "<group>"; };
 		F49EB2221F8CCC670064E124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		F49EB2371F8CCC670064E124 /* EmpManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49EB23B1F8CCC670064E124 /* EmpManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagerUITests.swift; sourceTree = "<group>"; };
 		F49EB23D1F8CCC670064E124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49EB2491F8CCD720064E124 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F49EB24B1F8CCD800064E124 /* ListManagersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManagersViewController.swift; sourceTree = "<group>"; };
+		F49EB24D1F8CDCBF0064E124 /* ManagerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerDetailsViewController.swift; sourceTree = "<group>"; };
+		F49EB24F1F8CDCCC0064E124 /* EmplyeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmplyeeListViewController.swift; sourceTree = "<group>"; };
+		F49EB2521F8CFB550064E124 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				F49EB2181F8CCC670064E124 /* AppDelegate.swift */,
-				F49EB21A1F8CCC670064E124 /* ViewController.swift */,
 				F49EB21C1F8CCC670064E124 /* Main.storyboard */,
 				F49EB2221F8CCC670064E124 /* Assets.xcassets */,
 				F49EB2241F8CCC670064E124 /* LaunchScreen.storyboard */,
 				F49EB2271F8CCC670064E124 /* Info.plist */,
 				F49EB21F1F8CCC670064E124 /* EmpManager.xcdatamodeld */,
+				F49EB2491F8CCD720064E124 /* AddViewController.swift */,
+				F49EB24B1F8CCD800064E124 /* ListManagersViewController.swift */,
+				F49EB24D1F8CDCBF0064E124 /* ManagerDetailsViewController.swift */,
+				F49EB24F1F8CDCCC0064E124 /* EmplyeeListViewController.swift */,
+				F49EB2521F8CFB550064E124 /* MyTableViewController.swift */,
 			);
 			path = EmpManager;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49EB21B1F8CCC670064E124 /* ViewController.swift in Sources */,
+				F49EB2501F8CDCCC0064E124 /* EmplyeeListViewController.swift in Sources */,
+				F49EB2531F8CFB550064E124 /* MyTableViewController.swift in Sources */,
+				F49EB24C1F8CCD800064E124 /* ListManagersViewController.swift in Sources */,
 				F49EB2191F8CCC670064E124 /* AppDelegate.swift in Sources */,
+				F49EB24E1F8CDCBF0064E124 /* ManagerDetailsViewController.swift in Sources */,
 				F49EB2211F8CCC670064E124 /* EmpManager.xcdatamodeld in Sources */,
+				F49EB24A1F8CCD720064E124 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG3KCU48ZD;
 				INFOPLIST_FILE = EmpManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG3KCU48ZD;
 				INFOPLIST_FILE = EmpManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
