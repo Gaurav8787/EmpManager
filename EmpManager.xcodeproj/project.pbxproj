@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49EB2191F8CCC670064E124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2181F8CCC670064E124 /* AppDelegate.swift */; };
+		F49EB21B1F8CCC670064E124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB21A1F8CCC670064E124 /* ViewController.swift */; };
+		F49EB21E1F8CCC670064E124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49EB21C1F8CCC670064E124 /* Main.storyboard */; };
+		F49EB2211F8CCC670064E124 /* EmpManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F49EB21F1F8CCC670064E124 /* EmpManager.xcdatamodeld */; };
+		F49EB2231F8CCC670064E124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49EB2221F8CCC670064E124 /* Assets.xcassets */; };
+		F49EB2261F8CCC670064E124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49EB2241F8CCC670064E124 /* LaunchScreen.storyboard */; };
+		F49EB2311F8CCC670064E124 /* EmpManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB2301F8CCC670064E124 /* EmpManagerTests.swift */; };
+		F49EB23C1F8CCC670064E124 /* EmpManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49EB23B1F8CCC670064E124 /* EmpManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49EB22D1F8CCC670064E124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49EB20D1F8CCC670064E124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49EB2141F8CCC670064E124;
+			remoteInfo = EmpManager;
+		};
+		F49EB2381F8CCC670064E124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49EB20D1F8CCC670064E124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49EB2141F8CCC670064E124;
+			remoteInfo = EmpManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F49EB2151F8CCC670064E124 /* EmpManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49EB2181F8CCC670064E124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49EB21A1F8CCC670064E124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F49EB21D1F8CCC670064E124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49EB2201F8CCC670064E124 /* EmpManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmpManager.xcdatamodel; sourceTree = "<group>"; };
+		F49EB2221F8CCC670064E124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49EB2251F8CCC670064E124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49EB2271F8CCC670064E124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49EB22C1F8CCC670064E124 /* EmpManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49EB2301F8CCC670064E124 /* EmpManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagerTests.swift; sourceTree = "<group>"; };
+		F49EB2321F8CCC670064E124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49EB2371F8CCC670064E124 /* EmpManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49EB23B1F8CCC670064E124 /* EmpManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagerUITests.swift; sourceTree = "<group>"; };
+		F49EB23D1F8CCC670064E124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49EB2121F8CCC670064E124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB2291F8CCC670064E124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB2341F8CCC670064E124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49EB20C1F8CCC670064E124 = {
+			isa = PBXGroup;
+			children = (
+				F49EB2171F8CCC670064E124 /* EmpManager */,
+				F49EB22F1F8CCC670064E124 /* EmpManagerTests */,
+				F49EB23A1F8CCC670064E124 /* EmpManagerUITests */,
+				F49EB2161F8CCC670064E124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49EB2161F8CCC670064E124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49EB2151F8CCC670064E124 /* EmpManager.app */,
+				F49EB22C1F8CCC670064E124 /* EmpManagerTests.xctest */,
+				F49EB2371F8CCC670064E124 /* EmpManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49EB2171F8CCC670064E124 /* EmpManager */ = {
+			isa = PBXGroup;
+			children = (
+				F49EB2181F8CCC670064E124 /* AppDelegate.swift */,
+				F49EB21A1F8CCC670064E124 /* ViewController.swift */,
+				F49EB21C1F8CCC670064E124 /* Main.storyboard */,
+				F49EB2221F8CCC670064E124 /* Assets.xcassets */,
+				F49EB2241F8CCC670064E124 /* LaunchScreen.storyboard */,
+				F49EB2271F8CCC670064E124 /* Info.plist */,
+				F49EB21F1F8CCC670064E124 /* EmpManager.xcdatamodeld */,
+			);
+			path = EmpManager;
+			sourceTree = "<group>";
+		};
+		F49EB22F1F8CCC670064E124 /* EmpManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F49EB2301F8CCC670064E124 /* EmpManagerTests.swift */,
+				F49EB2321F8CCC670064E124 /* Info.plist */,
+			);
+			path = EmpManagerTests;
+			sourceTree = "<group>";
+		};
+		F49EB23A1F8CCC670064E124 /* EmpManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F49EB23B1F8CCC670064E124 /* EmpManagerUITests.swift */,
+				F49EB23D1F8CCC670064E124 /* Info.plist */,
+			);
+			path = EmpManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49EB2141F8CCC670064E124 /* EmpManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49EB2401F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManager" */;
+			buildPhases = (
+				F49EB2111F8CCC670064E124 /* Sources */,
+				F49EB2121F8CCC670064E124 /* Frameworks */,
+				F49EB2131F8CCC670064E124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpManager;
+			productName = EmpManager;
+			productReference = F49EB2151F8CCC670064E124 /* EmpManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49EB22B1F8CCC670064E124 /* EmpManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49EB2431F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManagerTests" */;
+			buildPhases = (
+				F49EB2281F8CCC670064E124 /* Sources */,
+				F49EB2291F8CCC670064E124 /* Frameworks */,
+				F49EB22A1F8CCC670064E124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49EB22E1F8CCC670064E124 /* PBXTargetDependency */,
+			);
+			name = EmpManagerTests;
+			productName = EmpManagerTests;
+			productReference = F49EB22C1F8CCC670064E124 /* EmpManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F49EB2361F8CCC670064E124 /* EmpManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49EB2461F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManagerUITests" */;
+			buildPhases = (
+				F49EB2331F8CCC670064E124 /* Sources */,
+				F49EB2341F8CCC670064E124 /* Frameworks */,
+				F49EB2351F8CCC670064E124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49EB2391F8CCC670064E124 /* PBXTargetDependency */,
+			);
+			name = EmpManagerUITests;
+			productName = EmpManagerUITests;
+			productReference = F49EB2371F8CCC670064E124 /* EmpManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49EB20D1F8CCC670064E124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gaurav;
+				TargetAttributes = {
+					F49EB2141F8CCC670064E124 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F49EB22B1F8CCC670064E124 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F49EB2141F8CCC670064E124;
+					};
+					F49EB2361F8CCC670064E124 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F49EB2141F8CCC670064E124;
+					};
+				};
+			};
+			buildConfigurationList = F49EB2101F8CCC670064E124 /* Build configuration list for PBXProject "EmpManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49EB20C1F8CCC670064E124;
+			productRefGroup = F49EB2161F8CCC670064E124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49EB2141F8CCC670064E124 /* EmpManager */,
+				F49EB22B1F8CCC670064E124 /* EmpManagerTests */,
+				F49EB2361F8CCC670064E124 /* EmpManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49EB2131F8CCC670064E124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49EB2261F8CCC670064E124 /* LaunchScreen.storyboard in Resources */,
+				F49EB2231F8CCC670064E124 /* Assets.xcassets in Resources */,
+				F49EB21E1F8CCC670064E124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB22A1F8CCC670064E124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB2351F8CCC670064E124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49EB2111F8CCC670064E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49EB21B1F8CCC670064E124 /* ViewController.swift in Sources */,
+				F49EB2191F8CCC670064E124 /* AppDelegate.swift in Sources */,
+				F49EB2211F8CCC670064E124 /* EmpManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB2281F8CCC670064E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49EB2311F8CCC670064E124 /* EmpManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49EB2331F8CCC670064E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49EB23C1F8CCC670064E124 /* EmpManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49EB22E1F8CCC670064E124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49EB2141F8CCC670064E124 /* EmpManager */;
+			targetProxy = F49EB22D1F8CCC670064E124 /* PBXContainerItemProxy */;
+		};
+		F49EB2391F8CCC670064E124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49EB2141F8CCC670064E124 /* EmpManager */;
+			targetProxy = F49EB2381F8CCC670064E124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F49EB21C1F8CCC670064E124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49EB21D1F8CCC670064E124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49EB2241F8CCC670064E124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49EB2251F8CCC670064E124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49EB23E1F8CCC670064E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49EB23F1F8CCC670064E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49EB2411F8CCC670064E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49EB2421F8CCC670064E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F49EB2441F8CCC670064E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpManager.app/EmpManager";
+			};
+			name = Debug;
+		};
+		F49EB2451F8CCC670064E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpManager.app/EmpManager";
+			};
+			name = Release;
+		};
+		F49EB2471F8CCC670064E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpManager;
+			};
+			name = Debug;
+		};
+		F49EB2481F8CCC670064E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				INFOPLIST_FILE = EmpManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.EmpManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49EB2101F8CCC670064E124 /* Build configuration list for PBXProject "EmpManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49EB23E1F8CCC670064E124 /* Debug */,
+				F49EB23F1F8CCC670064E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49EB2401F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49EB2411F8CCC670064E124 /* Debug */,
+				F49EB2421F8CCC670064E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49EB2431F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49EB2441F8CCC670064E124 /* Debug */,
+				F49EB2451F8CCC670064E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49EB2461F8CCC670064E124 /* Build configuration list for PBXNativeTarget "EmpManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49EB2471F8CCC670064E124 /* Debug */,
+				F49EB2481F8CCC670064E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F49EB21F1F8CCC670064E124 /* EmpManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F49EB2201F8CCC670064E124 /* EmpManager.xcdatamodel */,
+			);
+			currentVersion = F49EB2201F8CCC670064E124 /* EmpManager.xcdatamodel */;
+			path = EmpManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F49EB20D1F8CCC670064E124 /* Project object */;
+}
